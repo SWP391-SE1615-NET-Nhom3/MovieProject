@@ -11,7 +11,7 @@ import Image from "next/image";
 
   function Footer() {
   return (
-    <footer
+    <footer 
       style={{
         marginTop: "50px",
         backgroundImage: `
@@ -19,13 +19,15 @@ import Image from "next/image";
         , url(${FooterImg.src})`,
         backgroundPosition: "center",
         backgroundSize: "cover",
+        position: "relative",
+        display: "block",
       }}
-      className="dark:bg-black lg:py-16 sm:py-10 xs:py-8 py-[30px] w-full"
+      className="dark:bg-black lg:py-16 sm:py-10 xs:py-8 py-[30px] w-full bg-no-repeat bg-cover"
     >
       <div
         className={cn(
           `max-w-[1140px] mx-auto md:px-8 sm:px-6 px-4 xl:px-0`,
-          ` flex flex-col items-center  md:gap-12 sm:gap-8 xs:gap-[30px] `
+          ` flex flex-col items-center  md:gap-12 sm:gap-8 xs:gap-[30px]`
         )}
       >
       <Image
@@ -43,7 +45,7 @@ import Image from "next/image";
         <ul className="grid grid-cols-3 items-center justify-start font-medium text-gray-300 capitalize md:gap-x-16 md:gap-y-4 md:gap-4 sm:gap-2  xs:gap-[6px] gap-1">
           {footerLinks.map((title, index) => {
             return (
-              <li key={index} className="text-center text-white xs:text-[12px] text-[14px] font-normal hover:text-primary transition-all duration-200 ease-in-out">
+              <li key={index} className="text-center cursor-pointer text-white xs:text-[12px] text-[14px] font-normal hover:text-primary transition-all duration-200 ease-in-out">
                 
                   {title}
                

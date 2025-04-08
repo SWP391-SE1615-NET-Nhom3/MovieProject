@@ -703,3 +703,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .title_categories{
   color: rgb(244 117 33/var(--tw-text-opacity,1));
 }
+
+.detail-movie__background{
+  img{
+    height: 60vh;
+  }
+}
+.detail_categories_item{
+  margin-bottom: 10px;
+}
+.detail_categories_name{
+  width: 20%;
+ 
+}
