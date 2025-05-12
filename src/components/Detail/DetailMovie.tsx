@@ -13,7 +13,7 @@ export default function DetailMovie() {
   return (
     <div className='detail-movie w-full '>
       <div className='detail-movie__background flex justify-center items-center'>
-        <img src="/imgs/background.png" alt="" className='w-full' />
+        <Image src="/imgs/background.png" alt="" className='w-full' />
       </div>
       <div className="filter_movie">
         <div className="title">
