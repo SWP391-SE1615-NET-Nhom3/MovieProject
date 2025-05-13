@@ -59,10 +59,10 @@ export default function DetailMovie() {
                 <div className='detail_categories_item flex'>
                     <div className="detail_categories_name">Các tập mới:</div>
                     <div className="detail_categories_content flex gap-5">
-                        <div className="episode flex rounded-md border border-des px-2 py-0.5 active:border-transparent active:bg-primary active:text-black lg:hover:border-transparent lg:hover:bg-primary lg:hover:text-black">Tập 16</div>
-                        <div className="episode flex rounded-md border border-des px-2 py-0.5 active:border-transparent active:bg-primary active:text-black lg:hover:border-transparent lg:hover:bg-primary lg:hover:text-black">Tập 15</div>
+                        <div className="episode flex rounded-md border border-des px-2 py-0.5 active:border-transparent active:bg-primary active:text-black lg:hover:border-transparent lg:hover:bg-primary lg:hover:text-black cursor-pointer">Tập 16</div>
+                        <div className="episode flex rounded-md border border-des px-2 py-0.5 active:border-transparent active:bg-primary active:text-black lg:hover:border-transparent lg:hover:bg-primary lg:hover:text-black cursor-pointer">Tập 15</div>
 
-                        <div className="episode flex rounded-md border border-des px-2 py-0.5 active:border-transparent active:bg-primary active:text-black lg:hover:border-transparent lg:hover:bg-primary lg:hover:text-black">Tập 14</div>
+                        <div className="episode flex rounded-md border border-des px-2 py-0.5 active:border-transparent active:bg-primary active:text-black lg:hover:border-transparent lg:hover:bg-primary lg:hover:text-black cursor-pointer">Tập 14</div>
 
                     </div>
                 </div>
@@ -94,10 +94,10 @@ export default function DetailMovie() {
                  
                  
                   <div className="detail_categories_content flex gap-5">
-                        <div className="flex rounded bg-slate-700 px-1 capitalize xl:hover:bg-orange-400 xl:hover:text-black">Drama</div>
-                        <div className="flex rounded bg-slate-700 px-1 capitalize xl:hover:bg-orange-400 xl:hover:text-black">Fantasy</div>
+                        <div className="flex rounded bg-slate-700 px-1 capitalize xl:hover:bg-orange-400 xl:hover:text-black cursor-pointer">Drama</div>
+                        <div className="flex rounded bg-slate-700 px-1 capitalize xl:hover:bg-orange-400 xl:hover:text-black cursor-pointer">Fantasy</div>
 
-                        <div className="flex rounded bg-slate-700 px-1 capitalize xl:hover:bg-orange-400 xl:hover:text-black">Suspense</div>
+                        <div className="flex rounded bg-slate-700 px-1 capitalize xl:hover:bg-orange-400 xl:hover:text-black cursor-pointer">Suspense</div>
 
                     </div>
 
@@ -107,22 +107,22 @@ export default function DetailMovie() {
                   <div className="detail_categories_name">Chủ đề:</div>
               
                   <div className="detail_categories_content flex gap-5">
-                        <div className="flex rounded bg-slate-700 px-1 capitalize xl:hover:bg-orange-400 xl:hover:text-black">Isekai</div>
-                        <div className="flex rounded bg-slate-700 px-1 capitalize xl:hover:bg-orange-400 xl:hover:text-black">Pssychological</div>
-                        <div className="flex rounded bg-slate-700 px-1 capitalize xl:hover:bg-orange-400 xl:hover:text-black">Time Travel</div>
+                        <div className="flex rounded bg-slate-700 px-1 capitalize xl:hover:bg-orange-400 xl:hover:text-black cursor-pointer">Isekai</div>
+                        <div className="flex rounded bg-slate-700 px-1 capitalize xl:hover:bg-orange-400 xl:hover:text-black cursor-pointer">Pssychological</div>
+                        <div className="flex rounded bg-slate-700 px-1 capitalize xl:hover:bg-orange-400 xl:hover:text-black cursor-pointer">Time Travel</div>
                     </div>
                   </div>
                   <div className='detail_categories_item flex'>
                   <div className="detail_categories_name">Phát hành:</div>
                   <div className="detail_categories_content flex gap-5">
-                        <div className="flex rounded bg-slate-700 px-1 capitalize xl:hover:bg-orange-400 xl:hover:text-black">Fall 2025</div>
+                        <div className="flex rounded bg-slate-700 px-1 capitalize xl:hover:bg-orange-400 xl:hover:text-black cursor-pointer">Fall 2025</div>
                         
                     </div>
                   </div>
                   <div className='detail_categories_item flex'>
                   <div className="detail_categories_name">Studio:</div>
                   <div className="detail_categories_content flex gap-5">
-                        <div className="flex rounded bg-slate-700 px-1 capitalize xl:hover:bg-orange-400 xl:hover:text-black">White Fox</div>
+                        <div className="flex rounded bg-slate-700 px-1 capitalize xl:hover:bg-orange-400 xl:hover:text-black cursor-pointer">White Fox</div>
                    
 
                     </div>
